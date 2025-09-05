@@ -25,13 +25,6 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5002805585"))
 #Port
 PORT = os.environ.get("PORT", "8080")
 
-# Clone Info :-
-CLONE_MODE = bool(environ.get('CLONE_MODE', True)) # Set True or False
-
-# If Clone Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://maomaoc73_db_user:tyDoEJrCYrvZblp5@cluster0.gs8e8u4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-CDB_NAME = environ.get("CDB_NAME", "maomaoc73")
-
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://sekh69u_db_user:YQomCkK6l96vECsY@cluster0.aqweohs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "sekh69u")
